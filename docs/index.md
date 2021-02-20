@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+Тут будет книга про то, как делать доступные приложения для iOS
 
-You can use the [editor on GitHub](https://github.com/akaDuality/AccessibilityBook/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Пока можно почитать мои статьи по теме: 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1. Про общие правила доступности:
+[Voice Control и VoiceOver: как адаптировать приложение для незрячих или неподвижных](https://habr.com/ru/company/dododev/blog/481200/)
 
-### Markdown
+2. Про трейты:
+[VoiceOver на iOS: каждый контрол ведёт себя по-разному](https://habr.com/ru/company/dododev/blog/488246/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akaDuality/AccessibilityBook/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+3. Про нюансы:
+[VoiceOver на iOS: решение типовых проблем](https://habr.com/ru/company/dododev/blog/491810/)
