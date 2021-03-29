@@ -7,12 +7,6 @@ body {
 	margin-bottom: 100px;
 } 
 
-
-/*div {
-	text-align: left;
-}
-*/
-
 h1, h2, h3, h4, p, ul {
 	font-family: -apple-system, Helvetica, Arial, sans-serif;
 }
@@ -114,14 +108,52 @@ blockquote {
 }
 
 
-/*@media screen and (orientation: portrait) {
+@media only screen and (max-width: 768px) {
 	h1 {
-		font-size: 32pt;
+		font-size: 24pt;
+		margin-top: 20px;
+	}
+
+	.author img {
+		float: none;
+	}
+
+	.author p {
+		padding-left: 0px;
+	}
+
+	.content {
 		margin-top: 50px;
-		margin-bottom: 0px;
+		margin-bottom: 20px
+	}
+
+	.content img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 40px;
 	}
 
 	.image-gallery img {
 		width: 48%
 	}
-}*/
+
+	.course {
+
+
+		padding-top: 5px;
+		padding-bottom: 50px;
+
+		margin-left: -20px;
+		padding-left: 20px;
+
+		margin-right: -20px;
+		padding-right: 20px;
+	}
+
+	iframe {
+		width: 100%;
+		height: auto;
+	}
+
+
+}
