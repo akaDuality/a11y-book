@@ -7,7 +7,7 @@ body {
 	margin-bottom: 100px;
 } 
 
-h1, h2, h3, h4, p, ul {
+h1, h2, h3, h4, p, ul, a {
 	font-family: -apple-system, Helvetica, Arial, sans-serif;
 }
 
@@ -165,6 +165,27 @@ iframe {
 		width: 100%;
 		height: auto;
 	}
+}
 
+@media (prefers-color-scheme: dark) {
+  	body {
+  		background-color: #222222;
+  		color: white;
+  	}
 
+  	.author > p {
+  		color: black;
+  	}
+
+  	.highlight > p {
+  		color: black;
+  	}
+
+  	a {
+  		color: aqua;
+	}
+
+  	a:visited {
+  		color: DarkCyan;
+	}
 }
