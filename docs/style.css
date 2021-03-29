@@ -77,10 +77,11 @@ img {
 	width: 32%
 }
 
-/*---------------------------------*/
 
-.course {
-	background-color: #6DFFDC;
+
+/*---------------------------------*/
+.highlight {
+margin-top: 50px;
 
 	padding-top: 5px;
 	padding-bottom: 50px;
@@ -92,21 +93,31 @@ img {
 	padding-right: 100px;
 }
 
+
+#demo {
+	background-color: bisque;
+}
+
+#demo > h2 {
+	color: darkred;
+}
+
+/*---------------------------------*/
+
+#course {
+	background-color: #6DFFDC;
+}
+
+#course > h2 {
+	color: darkslategray
+}
+
 iframe {
 	margin-top: 20px;
 }
 
 
 /*---------------------------------*/
-blockquote {
-	color: gray
-}
-
-
-<br> {
-	line-height: 150%;
-}
-
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 	h1 {
