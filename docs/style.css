@@ -37,6 +37,11 @@ img {
   border: 1px solid silver;
 }
 
+iframe {
+	width: 700px;
+	height: 394px;
+}
+
 /*---------------------------------*/
 .author {
 	background-color: bisque;
@@ -130,12 +135,14 @@ iframe {
 /*Footer*/
 
 .footer {
-	align-content: center;
-	max-width: max-content;
-	margin: auto;
-
+	text-align: center;
 	margin-top: 100px;
 }
+
+
+
+
+
 
 /*---------------------------------*/
 
@@ -180,10 +187,15 @@ iframe {
 	}
 
 	iframe {
-		width: 100%;
-		height: auto;
+		width: 94vw;
+		height: 53.1vw;
 	}
 }
+
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
   	body {
@@ -199,11 +211,27 @@ iframe {
   		color: black;
   	}
 
+  	#demo a {
+  		color: teal;
+  	}
+
+  	#demo a:visited {
+  		color: steelblue;
+  	}
+
+  	#course a {
+  		color: teal;
+  	}
+
+  	#course a:visited {
+  		color: steelblue;
+  	}
+
   	a {
-  		color: aqua;
+  		color: gold;
 	}
 
   	a:visited {
-  		color: DarkCyan;
+  		color: goldenrod;
 	}
 }
