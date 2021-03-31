@@ -42,6 +42,22 @@ iframe {
 	height: 394px;
 }
 
+.cheklist {
+	list-style: none;
+}
+
+.cheklist-done::before {
+  	content: "✓"; /* Insert content that looks like bullets */
+  	padding-right: 8px;
+  	margin-left: -20px;
+}
+
+.cheklist > .cheklist-todo::before {
+  	content: "•";
+  	padding-right: 8px;
+  	margin-left: -16px;
+}
+
 /*---------------------------------*/
 .author {
 	background-color: bisque;
@@ -114,7 +130,6 @@ iframe {
 
 
 
-
 /* Course */
 
 #course {
@@ -124,11 +139,6 @@ iframe {
 #course > h2 {
 	color: darkslategray
 }
-
-iframe {
-	margin-top: 20px;
-}
-
 
 
 
