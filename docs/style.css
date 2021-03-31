@@ -1,10 +1,14 @@
+/** {
+	background-color: 
+}*/
+
 body {
-	padding-bottom: 50px;
 	align-content: center;
 	max-width: 700px;
 	margin: auto;
+
 	padding: 20px;
-	margin-bottom: 100px;
+	padding-bottom: 50px;
 } 
 
 h1, h2, h3, h4, p, ul, a {
@@ -81,7 +85,7 @@ img {
 
 /*---------------------------------*/
 .highlight {
-margin-top: 50px;
+	margin-top: 50px;
 
 	padding-top: 5px;
 	padding-bottom: 50px;
@@ -102,7 +106,11 @@ margin-top: 50px;
 	color: darkred;
 }
 
-/*---------------------------------*/
+
+
+
+
+/* Course */
 
 #course {
 	background-color: #6DFFDC;
@@ -116,6 +124,18 @@ iframe {
 	margin-top: 20px;
 }
 
+
+
+
+/*Footer*/
+
+.footer {
+	align-content: center;
+	max-width: max-content;
+	margin: auto;
+
+	margin-top: 100px;
+}
 
 /*---------------------------------*/
 
@@ -149,8 +169,6 @@ iframe {
 	}
 
 	.course {
-
-
 		padding-top: 5px;
 		padding-bottom: 50px;
 
