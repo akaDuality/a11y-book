@@ -185,7 +185,7 @@ iframe {
 		width: 48%
 	}
 
-	.course {
+	.highlight {
 		padding-top: 5px;
 		padding-bottom: 50px;
 
@@ -197,8 +197,8 @@ iframe {
 	}
 
 	iframe {
-		width: 94vw;
-		height: 53.1vw;
+		width: 93vw;
+		height: 52.5vw;
 	}
 }
 
