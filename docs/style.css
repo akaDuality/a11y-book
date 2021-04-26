@@ -16,7 +16,7 @@ h1, h2, h3, h4, p, ul, a {
 }
 
 h1 {
-	font-size: 46pt;
+	font-size: 40pt;
 	margin-top: 100px;
 	margin-bottom: 0px;
 	/*text-align: center;*/
@@ -62,21 +62,23 @@ iframe {
 .author {
 	background-color: bisque;
 	padding: 20px;
-	border-radius: 30px;
+	border-radius: 70px;
 	margin-top: 20px;
 }
 
 .author img {
-	clip-path: circle(25px at center);
-	width: 50px;
+	clip-path: circle(50px at center);
+	width: 100px;
 	float: left;
 	padding: 5px;
+	margin-left: -5px;
 	margin-right: 10px;
+	margin-top: -10px;
 }
 
 .author p {
 	line-height: 100%;
-	margin: 10px;
+	margin: 20px;
 	padding-left: 70px;
 }
 
@@ -102,7 +104,9 @@ iframe {
 	width: 32%
 }
 
-
+.date {
+	color: darkgray;
+}
 
 /*---------------------------------*/
 .highlight {
@@ -147,6 +151,7 @@ iframe {
 .footer {
 	text-align: center;
 	margin-top: 100px;
+	color: darkgray;
 }
 
 
@@ -212,6 +217,10 @@ iframe {
   		background-color: #222222;
   		color: white;
   	}
+
+  	.author {
+		border-radius: 30px;
+	}
 
   	.author > p {
   		color: black;
