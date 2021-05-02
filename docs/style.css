@@ -93,7 +93,7 @@ iframe {
 	float: left;
 	width: 420px;
 	height: 560px;
-	margin-right: 50px;
+	margin-right: 100px;
 }
 
 .context text {
@@ -106,6 +106,7 @@ iframe {
 
 .date {
 	color: darkgray;
+	font-style: italic;
 }
 
 /*---------------------------------*/
@@ -148,7 +149,7 @@ iframe {
 
 /*Footer*/
 
-.footer {
+footer {
 	text-align: center;
 	margin-top: 100px;
 	color: darkgray;
@@ -161,7 +162,7 @@ iframe {
 
 /*---------------------------------*/
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 900px) {
 	h1 {
 		font-size: 24pt;
 		margin-top: 20px;
@@ -202,8 +203,8 @@ iframe {
 	}
 
 	iframe {
-		width: 93vw;
-		height: 52.5vw;
+		width: 90vw;
+		height: 50.6vw;
 	}
 }
 
