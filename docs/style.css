@@ -69,6 +69,7 @@ iframe {
 .author img {
 	clip-path: circle(50px at center);
 	width: 100px;
+	height: 100px;
 	float: left;
 	padding: 5px;
 	margin-left: -5px;
@@ -162,14 +163,24 @@ footer {
 
 /*---------------------------------*/
 
-@media only screen and (min-width: 320px) and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
 	h1 {
 		font-size: 24pt;
 		margin-top: 20px;
 	}
 
+	.author {
+		padding: 10px;
+	}
+
 	.author img {
 		float: none;
+		display: block;
+		align-content: center;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	  	margin-top: 20px;
+
 	}
 
 	.author p {
