@@ -33,9 +33,7 @@ p, h3, ul {
 	line-height: 140%;
 }
 
-img {
-  border: 1px solid silver;
-}
+
 
 iframe {
 	width: 900px;
@@ -103,6 +101,10 @@ iframe {
 
 .image-gallery img {
 	width: 32%
+}
+
+.sample {
+	border: 1px solid silver; /*can't put in .image-gallery img, table on images become to be list oO*/
 }
 
 .date {
