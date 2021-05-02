@@ -112,6 +112,10 @@ iframe {
 	font-style: italic;
 }
 
+input {
+	display: block-inline;
+}
+
 /*---------------------------------*/
 .highlight {
 	margin-top: 50px;
