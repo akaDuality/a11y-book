@@ -28,7 +28,7 @@ h2 {
 	margin-bottom: 0px;
 }
 
-p, h3, ul {
+p, h3, ul, input {
 	font-size: 14pt;
 	line-height: 140%;
 }
@@ -116,6 +116,10 @@ input {
 	display: block-inline;
 }
 
+.appLink {
+    text-align: center;
+}
+
 /*---------------------------------*/
 .highlight {
 	margin-top: 50px;
@@ -136,7 +140,7 @@ input {
 }
 
 #demo > h2 {
-	color: darkred;
+	color: sienna;
 }
 
 

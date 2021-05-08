@@ -139,8 +139,24 @@
 			<b>Обширная:</b> удалось охватить почти все стороны доступности. VoiceOver, Voice Control, Switch Control, Dynamic Type</p>
 		<p>
 			<b>Наглядная:</b> рассказываю все на примерах приложения над которым работаю, поэтому вы можете открыть приложение Додо Пиццы и посмотреть как это работает вживую.</p>
+            
+        <div class="appLink">
+            <a href="https://apps.apple.com/ru/app/%D0%B4%D0%BE%D0%B4%D0%BE-%D0%BF%D0%B8%D1%86%D1%86%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D0%BF%D0%B8%D1%86%D1%86%D1%8B/id894649641?itscg=30200&amp;itsct=apps_box_appicon">
+                <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/c7/f5/9d/c7f59d3c-d230-c8a7-cfe0-1c62b6cb8b8e/AppIcon-0-0-1x_U007emarketing-0-0-0-2-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/540x540bb.jpg"
+                alt="Значок приложения. Ссылка на приложение в App Store"
+                style="
+                width: 140px; height: 140px;
+                border-top-left-radius: 22%; border-top-right-radius: 22%;
+                border-bottom-right-radius: 22%; border-bottom-left-radius: 22%;
+                overflow: hidden; display: inline-block; vertical-align: middle;"></a>
 		
-		<a href="https://apps.apple.com/ru/app/%D0%B4%D0%BE%D0%B4%D0%BE-%D0%BF%D0%B8%D1%86%D1%86%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D0%BF%D0%B8%D1%86%D1%86%D1%8B/id894649641?itsct=apps_box_badge&amp;itscg=30200"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ru-ru?size=250x83&amp;releaseDate=1407801600&h=7daa045a330c8ad07f0e0acdcac3c0d5" alt="Download on the App Store" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"></a>
+            <a href="https://apps.apple.com/ru/app/%D0%B4%D0%BE%D0%B4%D0%BE-%D0%BF%D0%B8%D1%86%D1%86%D0%B0-%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D0%BF%D0%B8%D1%86%D1%86%D1%8B/id894649641?itsct=apps_box_badge&amp;itscg=30200"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ru-ru?size=250x83&amp;releaseDate=1407801600&h=7daa045a330c8ad07f0e0acdcac3c0d5" alt="Ссылка на приложение в App Store"
+                style="border-top-left-radius: 13px; border-top-right-radius: 13px;
+                border-bottom-right-radius: 13px; border-bottom-left-radius: 13px;
+                width: 250px; height: 83px;
+                overflow: hidden; display: inline-block; vertical-align: middle;
+                margin-left: 20px"></a>
+        </div>
 	</a>
 	</section>
 
@@ -153,7 +169,7 @@
 	<section class = "highlight" id="demo">
 		<h2>Расписание глав</h2>
 		<p>
-			Мне важно, чтобы книгу не просто скачали, а прочитали. Поэтому я буду выкладывать по одной главе, а вы сразу подхватывайте и читайте. </p>
+			Мне важно, чтобы книгу не просто скачали, а прочитали. Поэтому я буду выкладывать по одной главе, а вы сразу подхватывайте и читайте. Расписание может сдвинуться.</p>
 			<ul class = "cheklist">
 				<li class="cheklist-todo">Как работает доступность. 	<span class="date">17 мая</span></li>
 				<li class="cheklist-todo">Как работает VoiceOver. 		<span class="date">24 мая</span></li>
@@ -169,16 +185,22 @@
 				<li class="cheklist-todo">Dynamic Type. 				<span class="date">2 августа</span></li>
 			</ul>
 
-		<p>
-			Расписание может сдвинуться.</p>
-
 		<form 
 			action="https://tinyletter.com/rubanov" method="post" target="popupwindow" 
 			onsubmit="window.open('https://tinyletter.com/rubanov', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-			<p><label for="tlemail">Узнать о выходе новой главы можно через рассылку:</label></p>
-			<input type="text" style="width:280px; height: 20px" name="email" id="tlemail" />
-			<input type="hidden" value="1" name="embed"/><input type="submit" value="Подписаться" /><p>
-			<a href="https://tinyletter.com" target="_blank" style="font-size: 8pt;">powered by TinyLetter</a></p>
+			<p>
+                <label for="tlemail">Узнать о выходе новой главы можно через емейл-рассылку:</label></p>
+                <input type="email" name="email" id="tlemail"
+                    style= "width:400px; height: 40px;
+                            border: 1px solid sienna; border-radius: 10px 0px 0px 10px;
+                            margin-right: -4px;
+                            padding-left: 10px"/>
+                <input type="hidden" value="" name="embed"/>
+                <input type="submit" value="Подписаться"
+                    style= "border: none; width: 150px; height: 44px;
+                            border-radius: 0px 10px 10px 0px;
+                            background-color: sienna; color: white;
+                            padding-top: 4px;"/><p>
 		</form>
         
 	</section>
