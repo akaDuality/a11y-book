@@ -241,7 +241,6 @@ footer {
         
         /* Clear style for iOS */
         -webkit-appearance: none;
-        @include border-radius(0);
     }
     
 /*  --  */
