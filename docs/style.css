@@ -230,7 +230,7 @@ footer {
     
 /*  Demo  */
     #tlemail {
-        width: 96%; height: 40px;
+        width: 94%; height: 40px;
         border-radius: 10px;
         padding-left: 10px
     }
@@ -240,10 +240,10 @@ footer {
         margin-top: 10px;
         
         /* Clear style for iOS */
-        -webkit-appearance: none;
+        -webkit-appearance: none !important;
     }
     
-/*  --  */
+    /*  --  */
 
 	.highlight {
 		padding-top: 5px;
