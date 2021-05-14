@@ -177,7 +177,7 @@ input[type="submit"] {
 footer {
 	text-align: center;
 	margin-top: 100px;
-	color: darkgray;
+	color: black;
 }
 
 
@@ -312,5 +312,9 @@ footer {
 
   	a:visited {
   		color: goldenrod;
+	}
+
+	footer {
+		color: lightgray;
 	}
 }
